@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Ubuntu:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+main{max-width:1000px;margin: auto;}
+
+#topo{display: flex;justify-content:space-around;align-items: center;max-width:2000px;margin: auto;background: #f4f4f4;position: fixed;top: 0;left: 0;right: 0;z-index: 2}
+
+.boxTopo{width:40%;margin: auto;font-size: 10px;}
+
+.boxTopo > img{width:100%;}
+
+#capa{max-width:2000px;margin: auto;height:350px;background-image: url('capa.jpg');background-size:cover;background-position: center;}
+
+#filtro{width:100%;height:350px;background: rgba(0, 0, 0,0.8);position: relative;text-align: center;display: flex;justify-content: center;align-items: center;flex-direction: column;}
+
+#cursoCuidador{font-family:  "Ubuntu", sans-serif;font-weight: 700;color: #fff;text-transform: uppercase;opacity: 0.5;}
+
+#titulo{font-family:  "Ubuntu", sans-serif;font-weight: 700;text-align: center;margin-top:300px;margin-bottom: 50px;color: #FB4F80;text-shadow: 2px 3px 5px #999;text-transform: uppercase;position: relative;}
+
+#secao1,#secao2{max-width: 1000px;}
+
+.conteudoSecao1,.conteudoSecao2,.conteudoSecao3{width: 80%;margin:50px auto;}
+
+img{max-width: 100%}
+
+li,p{ font-family: "DM Sans", sans-serif;font-optical-sizing: auto;font-weight: <weight>;font-style:ormal;padding: 15px 0px}
+
+h2,h3{font-family:  "Ubuntu", sans-serif;font-weight: 700;color:#444}
+
+#tituloSecao2{width:100%;margin:50px auto;text-align: center;font-family:  "Ubuntu", sans-serif;font-weight: 700;color:#333}
+
+
+footer{max-width:2000px;height:;background:#f4f4f4;margin: auto;margin-top:150px}
+
+
+.conteudoFooter > img{display: block;width: 250px;margin: auto;}
+
+.conteudoFooter{text-align: center;}
+
+#autorPagina{max-width: 2000px;margin: auto;padding:5px;text-align: center;font-family:sans-serif;font-size: 12px;color:#fff;background:linear-gradient(#444,#111);}
+
+@media(min-width:992px){
+
+  .boxTopo{width:40%;margin: auto;font-size:17px;}
+
+  .boxTopo > img{width:150px;display: block;margin: auto;}
+
+ #capa,#filtro{height:600px}
+
+ #cursoCuidador{font-size:65px;}
+
+ #titulo{font-size:;}
+
+ #secao1,#secao2{display: flex;margin: auto;gap: ;background:#f4f4f4;padding:;border:5px solid #eee}
+
+ #secao2{padding: 0} 
+
+ .conteudoSecao1,.conteudoSecao2{width: 45%;margin: auto;padding:20px 5px}
+    
+ .conteudoSecao2{padding: 0px}
+
+ #tituloSecao2{width:;text-align:left;margin: 50px 0px}
+
+ #secao3{margin: 50px 0px;}
+
+ .conteudoSecao3{width: 100%;padding:25px;background: #f4f4f4;margin-top:50px;margin-bottom: 100px;border-left: 15px solid #22890A}
+
+ footer{padding: 25px 0px}
+
+ #containerFooter{display: flex;justify-content: center;align-items: center;gap: 10px;max-width:900px;margin: auto;}
+
+ .conteudoFooter{width:35%;margin: auto;}
+
+ .conteudoFooter > img{width:}
+}
+
+
+@media(min-width:1200px){
+
+ #titulo{font-size:25px;}
+
+
+} 
+
+
+@media(min-width:1500px){
+
+  #secao1,#secao2,main{max-width: 1200px;}
+}
+
+
+@media(min-width:1900px){
+
+  #secao1,#secao2,main{max-width: 1500px;}
+}
