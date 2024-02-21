@@ -8,7 +8,7 @@
 
 main{max-width:1000px;margin: auto;}
 
-#topo{display: flex;justify-content:space-around;align-items: center;max-width:2000px;margin: auto;background: #f4f4f4;position: fixed;top: 0;left: 0;right: 0;z-index: 2}
+#topo{display: flex;justify-content:space-around;align-items: center;max-width:2000px;margin: auto;background: #f4f4f4;}
 
 .boxTopo{width:40%;margin: auto;font-size: 10px;}
 
@@ -20,7 +20,7 @@ main{max-width:1000px;margin: auto;}
 
 #cursoCuidador{font-family:  "Ubuntu", sans-serif;font-weight: 700;color: #fff;text-transform: uppercase;opacity: 0.5;}
 
-#titulo{font-family:  "Ubuntu", sans-serif;font-weight: 700;text-align: center;margin-top:300px;margin-bottom: 50px;color: #FB4F80;text-shadow: 2px 3px 5px #999;text-transform: uppercase;position: relative;}
+#titulo{font-family:  "Ubuntu", sans-serif;font-weight: 700;text-align: center;margin-top:100px;margin-bottom: 50px;color: #FB4F80;text-shadow: 2px 3px 5px #999;text-transform: uppercase;position: relative;}
 
 #secao1,#secao2{max-width: 1000px;}
 
