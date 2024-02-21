@@ -10,7 +10,7 @@ main{max-width:1000px;margin: auto;}
 
 #topo{display: flex;justify-content:space-around;align-items: center;max-width:2000px;margin: auto;background: #f4f4f4;}
 
-.boxTopo{width:40%;margin: auto;font-size: 10px;}
+.boxTopo{width:40%;margin: auto;font-size: 11px;}
 
 .boxTopo > img{width:100%;}
 
